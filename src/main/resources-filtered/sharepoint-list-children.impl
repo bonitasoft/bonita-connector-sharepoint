@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<implementation:connectorImplementation
+    xmlns:implementation="http://www.bonitasoft.org/ns/connector/implementation/6.0">
+    <implementationId>${list-children.impl.id}</implementationId>
+    <implementationVersion>${list-children.impl.version}</implementationVersion>
+    <definitionId>${list-children.def.id}</definitionId>
+    <definitionVersion>${list-children.def.version}</definitionVersion>
+    <implementationClassname>${list-children.main-class}</implementationClassname>
+    <hasSources>false</hasSources>
+    <description>List children of a SharePoint folder via Microsoft Graph API</description>
+${connector-dependencies}
+</implementation:connectorImplementation>

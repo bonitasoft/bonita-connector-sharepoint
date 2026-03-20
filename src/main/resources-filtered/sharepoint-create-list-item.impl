@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<implementation:connectorImplementation
+    xmlns:implementation="http://www.bonitasoft.org/ns/connector/implementation/6.0">
+    <implementationId>${create-list-item.impl.id}</implementationId>
+    <implementationVersion>${create-list-item.impl.version}</implementationVersion>
+    <definitionId>${create-list-item.def.id}</definitionId>
+    <definitionVersion>${create-list-item.def.version}</definitionVersion>
+    <implementationClassname>${create-list-item.main-class}</implementationClassname>
+    <hasSources>false</hasSources>
+    <description>Create a new item in a SharePoint list via Microsoft Graph API</description>
+${connector-dependencies}
+</implementation:connectorImplementation>

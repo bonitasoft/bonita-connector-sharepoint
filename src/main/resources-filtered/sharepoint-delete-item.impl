@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<implementation:connectorImplementation
+    xmlns:implementation="http://www.bonitasoft.org/ns/connector/implementation/6.0">
+    <implementationId>${delete-item.impl.id}</implementationId>
+    <implementationVersion>${delete-item.impl.version}</implementationVersion>
+    <definitionId>${delete-item.def.id}</definitionId>
+    <definitionVersion>${delete-item.def.version}</definitionVersion>
+    <implementationClassname>${delete-item.main-class}</implementationClassname>
+    <hasSources>false</hasSources>
+    <description>Delete a file or folder from SharePoint via Microsoft Graph API</description>
+${connector-dependencies}
+</implementation:connectorImplementation>

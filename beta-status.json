@@ -1,0 +1,14 @@
+{
+  "connector": "bonita-connector-sharepoint",
+  "version": "1.0.0-beta.1",
+  "operations": {
+    "upload-file": { "status": "untested", "testedBy": null, "testedDate": null, "notes": null },
+    "download-file": { "status": "untested", "testedBy": null, "testedDate": null, "notes": null },
+    "create-folder": { "status": "untested", "testedBy": null, "testedDate": null, "notes": null },
+    "list-children": { "status": "untested", "testedBy": null, "testedDate": null, "notes": null },
+    "delete-item": { "status": "untested", "testedBy": null, "testedDate": null, "notes": null },
+    "create-list-item": { "status": "untested", "testedBy": null, "testedDate": null, "notes": null },
+    "get-list-item": { "status": "untested", "testedBy": null, "testedDate": null, "notes": null },
+    "update-list-item": { "status": "untested", "testedBy": null, "testedDate": null, "notes": null }
+  }
+}

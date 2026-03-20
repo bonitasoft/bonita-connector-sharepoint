@@ -8,8 +8,14 @@ body:
       label: Operation tested
       description: Which connector operation did you test?
       options:
-        - CHANGE_ME-operation-1
-        - CHANGE_ME-operation-2
+        - upload-file
+        - download-file
+        - create-folder
+        - list-children
+        - delete-item
+        - create-list-item
+        - get-list-item
+        - update-list-item
     validations:
       required: true
   - type: dropdown

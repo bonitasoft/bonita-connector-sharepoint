@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition:ConnectorDefinition
+    xmlns:definition="http://www.bonitasoft.org/ns/connector/definition/6.1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <id>${list-children.def.id}</id>
+    <version>${list-children.def.version}</version>
+    <icon>sharepoint.png</icon>
+    <category icon="sharepoint.png" id="SharePoint"/>
+
+    <!-- Connection inputs -->
+    <input name="tenantId" type="java.lang.String" mandatory="true"/>
+    <input name="clientId" type="java.lang.String" mandatory="true"/>
+    <input name="clientSecret" type="java.lang.String" mandatory="true"/>
+    <input name="clientCertificatePem" type="java.lang.String" mandatory="false"/>
+    <input name="siteId" type="java.lang.String" mandatory="true"/>
+    <input name="connectTimeout" type="java.lang.Integer" mandatory="false" defaultValue="30000"/>
+    <input name="readTimeout" type="java.lang.Integer" mandatory="false" defaultValue="60000"/>
+
+    <!-- Folder inputs -->
+    <input name="parentItemId" type="java.lang.String" mandatory="false" defaultValue="root"/>
+    <input name="driveId" type="java.lang.String" mandatory="false"/>
+
+    <!-- Configuration inputs -->
+    <input name="maxResults" type="java.lang.Integer" mandatory="false" defaultValue="100"/>
+    <input name="includeFiles" type="java.lang.Boolean" mandatory="false" defaultValue="true"/>
+    <input name="includeFolders" type="java.lang.Boolean" mandatory="false" defaultValue="true"/>
+
+    <!-- Outputs -->
+    <output name="items" type="java.util.List"/>
+    <output name="totalCount" type="java.lang.Integer"/>
+    <output name="nextPageToken" type="java.lang.String"/>
+    <output name="success" type="java.lang.Boolean"/>
+    <output name="errorMessage" type="java.lang.String"/>
+
+    <page id="connectionPage">
+        <widget xsi:type="definition:Text" id="tenantIdWidget" inputName="tenantId"/>
+        <widget xsi:type="definition:Text" id="clientIdWidget" inputName="clientId"/>
+        <widget xsi:type="definition:Password" id="clientSecretWidget" inputName="clientSecret"/>
+        <widget xsi:type="definition:Password" id="clientCertificatePemWidget" inputName="clientCertificatePem"/>
+        <widget xsi:type="definition:Text" id="siteIdWidget" inputName="siteId"/>
+        <widget xsi:type="definition:Text" id="connectTimeoutWidget" inputName="connectTimeout"/>
+        <widget xsi:type="definition:Text" id="readTimeoutWidget" inputName="readTimeout"/>
+    </page>
+    <page id="folderPage">
+        <widget xsi:type="definition:Text" id="parentItemIdWidget" inputName="parentItemId"/>
+        <widget xsi:type="definition:Text" id="driveIdWidget" inputName="driveId"/>
+    </page>
+    <page id="configurationPage">
+        <widget xsi:type="definition:Text" id="maxResultsWidget" inputName="maxResults"/>
+        <widget xsi:type="definition:Checkbox" id="includeFilesWidget" inputName="includeFiles"/>
+        <widget xsi:type="definition:Checkbox" id="includeFoldersWidget" inputName="includeFolders"/>
+    </page>
+</definition:ConnectorDefinition>
