@@ -38,56 +38,56 @@
 
 		<!-- Upload File Connector -->
 		<upload-file.def.id>sharepoint-upload-file</upload-file.def.id>
-		<upload-file.def.version>1.0.0</upload-file.def.version>
+		<upload-file.def.version>1.0.0-beta.1</upload-file.def.version>
 		<upload-file.impl.id>${upload-file.def.id}-impl</upload-file.impl.id>
 		<upload-file.impl.version>${project.version}</upload-file.impl.version>
 		<upload-file.main-class>com.bonitasoft.connectors.sharepoint.UploadFileConnector</upload-file.main-class>
 
 		<!-- Download File Connector -->
 		<download-file.def.id>sharepoint-download-file</download-file.def.id>
-		<download-file.def.version>1.0.0</download-file.def.version>
+		<download-file.def.version>1.0.0-beta.1</download-file.def.version>
 		<download-file.impl.id>${download-file.def.id}-impl</download-file.impl.id>
 		<download-file.impl.version>${project.version}</download-file.impl.version>
 		<download-file.main-class>com.bonitasoft.connectors.sharepoint.DownloadFileConnector</download-file.main-class>
 
 		<!-- Create Folder Connector -->
 		<create-folder.def.id>sharepoint-create-folder</create-folder.def.id>
-		<create-folder.def.version>1.0.0</create-folder.def.version>
+		<create-folder.def.version>1.0.0-beta.1</create-folder.def.version>
 		<create-folder.impl.id>${create-folder.def.id}-impl</create-folder.impl.id>
 		<create-folder.impl.version>${project.version}</create-folder.impl.version>
 		<create-folder.main-class>com.bonitasoft.connectors.sharepoint.CreateFolderConnector</create-folder.main-class>
 
 		<!-- List Children Connector -->
 		<list-children.def.id>sharepoint-list-children</list-children.def.id>
-		<list-children.def.version>1.0.0</list-children.def.version>
+		<list-children.def.version>1.0.0-beta.1</list-children.def.version>
 		<list-children.impl.id>${list-children.def.id}-impl</list-children.impl.id>
 		<list-children.impl.version>${project.version}</list-children.impl.version>
 		<list-children.main-class>com.bonitasoft.connectors.sharepoint.ListChildrenConnector</list-children.main-class>
 
 		<!-- Delete Item Connector -->
 		<delete-item.def.id>sharepoint-delete-item</delete-item.def.id>
-		<delete-item.def.version>1.0.0</delete-item.def.version>
+		<delete-item.def.version>1.0.0-beta.1</delete-item.def.version>
 		<delete-item.impl.id>${delete-item.def.id}-impl</delete-item.impl.id>
 		<delete-item.impl.version>${project.version}</delete-item.impl.version>
 		<delete-item.main-class>com.bonitasoft.connectors.sharepoint.DeleteItemConnector</delete-item.main-class>
 
 		<!-- Create List Item Connector -->
 		<create-list-item.def.id>sharepoint-create-list-item</create-list-item.def.id>
-		<create-list-item.def.version>1.0.0</create-list-item.def.version>
+		<create-list-item.def.version>1.0.0-beta.1</create-list-item.def.version>
 		<create-list-item.impl.id>${create-list-item.def.id}-impl</create-list-item.impl.id>
 		<create-list-item.impl.version>${project.version}</create-list-item.impl.version>
 		<create-list-item.main-class>com.bonitasoft.connectors.sharepoint.CreateListItemConnector</create-list-item.main-class>
 
 		<!-- Get List Item Connector -->
 		<get-list-item.def.id>sharepoint-get-list-item</get-list-item.def.id>
-		<get-list-item.def.version>1.0.0</get-list-item.def.version>
+		<get-list-item.def.version>1.0.0-beta.1</get-list-item.def.version>
 		<get-list-item.impl.id>${get-list-item.def.id}-impl</get-list-item.impl.id>
 		<get-list-item.impl.version>${project.version}</get-list-item.impl.version>
 		<get-list-item.main-class>com.bonitasoft.connectors.sharepoint.GetListItemConnector</get-list-item.main-class>
 
 		<!-- Update List Item Connector -->
 		<update-list-item.def.id>sharepoint-update-list-item</update-list-item.def.id>
-		<update-list-item.def.version>1.0.0</update-list-item.def.version>
+		<update-list-item.def.version>1.0.0-beta.1</update-list-item.def.version>
 		<update-list-item.impl.id>${update-list-item.def.id}-impl</update-list-item.impl.id>
 		<update-list-item.impl.version>${project.version}</update-list-item.impl.version>
 		<update-list-item.main-class>com.bonitasoft.connectors.sharepoint.UpdateListItemConnector</update-list-item.main-class>
