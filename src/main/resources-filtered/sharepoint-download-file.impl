@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <implementation:connectorImplementation
     xmlns:implementation="http://www.bonitasoft.org/ns/connector/implementation/6.0">
-    <implementationId>${download-file.impl.id}</implementationId>
-    <implementationVersion>${download-file.impl.version}</implementationVersion>
-    <definitionId>${download-file.def.id}</definitionId>
-    <definitionVersion>${download-file.def.version}</definitionVersion>
-    <implementationClassname>${download-file.main-class}</implementationClassname>
+    <implementationId>${sharepoint-download-file.impl.id}</implementationId>
+    <implementationVersion>${sharepoint-download-file.impl.version}</implementationVersion>
+    <definitionId>${sharepoint-download-file.def.id}</definitionId>
+    <definitionVersion>${sharepoint-download-file.def.version}</definitionVersion>
+    <implementationClassname>${sharepoint-download-file.main-class}</implementationClassname>
     <hasSources>false</hasSources>
     <description>Download a file from SharePoint via Microsoft Graph API</description>
 ${connector-dependencies}

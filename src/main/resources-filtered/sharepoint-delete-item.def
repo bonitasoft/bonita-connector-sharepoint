@@ -3,8 +3,8 @@
     xmlns:definition="http://www.bonitasoft.org/ns/connector/definition/6.1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <id>${delete-item.def.id}</id>
-    <version>${delete-item.def.version}</version>
+    <id>${sharepoint-delete-item.def.id}</id>
+    <version>${sharepoint-delete-item.def.version}</version>
     <icon>sharepoint.png</icon>
     <category icon="sharepoint.png" id="SharePoint"/>
 

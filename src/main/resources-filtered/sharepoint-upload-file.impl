@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <implementation:connectorImplementation
     xmlns:implementation="http://www.bonitasoft.org/ns/connector/implementation/6.0">
-    <implementationId>${upload-file.impl.id}</implementationId>
-    <implementationVersion>${upload-file.impl.version}</implementationVersion>
-    <definitionId>${upload-file.def.id}</definitionId>
-    <definitionVersion>${upload-file.def.version}</definitionVersion>
-    <implementationClassname>${upload-file.main-class}</implementationClassname>
+    <implementationId>${sharepoint-upload-file.impl.id}</implementationId>
+    <implementationVersion>${sharepoint-upload-file.impl.version}</implementationVersion>
+    <definitionId>${sharepoint-upload-file.def.id}</definitionId>
+    <definitionVersion>${sharepoint-upload-file.def.version}</definitionVersion>
+    <implementationClassname>${sharepoint-upload-file.main-class}</implementationClassname>
     <hasSources>false</hasSources>
     <description>Upload a file to SharePoint via Microsoft Graph API</description>
 ${connector-dependencies}

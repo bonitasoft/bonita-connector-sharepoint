@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <implementation:connectorImplementation
     xmlns:implementation="http://www.bonitasoft.org/ns/connector/implementation/6.0">
-    <implementationId>${create-folder.impl.id}</implementationId>
-    <implementationVersion>${create-folder.impl.version}</implementationVersion>
-    <definitionId>${create-folder.def.id}</definitionId>
-    <definitionVersion>${create-folder.def.version}</definitionVersion>
-    <implementationClassname>${create-folder.main-class}</implementationClassname>
+    <implementationId>${sharepoint-create-folder.impl.id}</implementationId>
+    <implementationVersion>${sharepoint-create-folder.impl.version}</implementationVersion>
+    <definitionId>${sharepoint-create-folder.def.id}</definitionId>
+    <definitionVersion>${sharepoint-create-folder.def.version}</definitionVersion>
+    <implementationClassname>${sharepoint-create-folder.main-class}</implementationClassname>
     <hasSources>false</hasSources>
     <description>Create a folder in SharePoint via Microsoft Graph API</description>
 ${connector-dependencies}
