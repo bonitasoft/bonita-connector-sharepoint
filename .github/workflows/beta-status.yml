@@ -46,7 +46,7 @@ jobs:
         id: operations
         run: |
           echo "Extracting *.def.id property values from pom.xml..."
-          OPERATIONS=$(grep -oP '(?<=<)[a-z0-9-]+\.def\.id(?=>)' pom.xml \
+          OPERATIONS=$(grep -oP '(?<=<)[a-z0-9.-]+\.def\.id(?=>)' pom.xml \
             | sed 's/\.def\.id//' \
             | sort)
           echo "Operation property prefixes:"
@@ -280,7 +280,7 @@ jobs:
           REMAINING=$(jq -r '[.operations | to_entries[] | select(.value.status == "untested") | .key | sub("^[^-]+-"; "")] | join(", ")' beta-status.json)
           STATUS=$( [ "$ALL_VALIDATED" = "true" ] && echo "Released" || echo "Beta" )
 
-          BODY="## Beta Status Dashboard\n\n*Auto-updated by the beta-status GitHub Action workflow.*\n\n| Connector | Operations | Validated | Remaining | Status |\n| --- | --- | --- | --- | --- |\n| [${CONNECTOR}](https://github.com/bonitasoft/${CONNECTOR}) | ${TOTAL} | ${VALIDATED}/${TOTAL} | ${REMAINING:-—} | ${STATUS} |\n\n---\n\nLast updated: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          BODY="## Beta Status Dashboard\n\n*Auto-updated by the beta-status GitHub Action workflow.*\n\n| Connector | Operations | Validated | Remaining | Status |\n| --- | --- | --- | --- | --- |\n| [${CONNECTOR}](https://github.com/bonitasoft/${CONNECTOR}) | ${TOTAL} | ${VALIDATED}/${TOTAL} | ${REMAINING:-Â—} | ${STATUS} |\n\n---\n\nLast updated: $(date -u '+%Y-%m-%d %H:%M UTC')"
 
           curl -s -X PUT \
             "https://${CONFLUENCE_CLOUD_ID}/wiki/api/v2/pages/${CONFLUENCE_PAGE_ID}" \
