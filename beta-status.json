@@ -1,14 +1,46 @@
 {
   "connector": "bonita-connector-sharepoint",
-  "currentVersion": "1.0.1-beta.1",
+  "currentVersion": "1.0.1-beta.2",
   "operations": {
-    "sharepoint-create-folder": { "status": "untested", "issue": null, "version": null },
-    "sharepoint-create-list-item": { "status": "untested", "issue": null, "version": null },
-    "sharepoint-delete-item": { "status": "untested", "issue": null, "version": null },
-    "sharepoint-download-file": { "status": "untested", "issue": null, "version": null },
-    "sharepoint-get-list-item": { "status": "untested", "issue": null, "version": null },
-    "sharepoint-list-children": { "status": "untested", "issue": null, "version": null },
-    "sharepoint-update-list-item": { "status": "untested", "issue": null, "version": null },
-    "sharepoint-upload-file": { "status": "untested", "issue": null, "version": null }
+    "sharepoint-create-folder": {
+      "status": "untested",
+      "issue": null,
+      "version": null
+    },
+    "sharepoint-create-list-item": {
+      "status": "untested",
+      "issue": null,
+      "version": null
+    },
+    "sharepoint-delete-item": {
+      "status": "untested",
+      "issue": null,
+      "version": null
+    },
+    "sharepoint-download-file": {
+      "status": "untested",
+      "issue": null,
+      "version": null
+    },
+    "sharepoint-get-list-item": {
+      "status": "untested",
+      "issue": null,
+      "version": null
+    },
+    "sharepoint-list-children": {
+      "status": "untested",
+      "issue": null,
+      "version": null
+    },
+    "sharepoint-update-list-item": {
+      "status": "untested",
+      "issue": null,
+      "version": null
+    },
+    "sharepoint-upload-file": {
+      "status": "untested",
+      "issue": null,
+      "version": null
+    }
   }
 }
